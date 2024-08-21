@@ -1,1 +1,1 @@
-from teamswebhook import TeamsWebhook
+from . import TeamsWebhook
