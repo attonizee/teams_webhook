@@ -53,15 +53,3 @@ class TeamsWebhook:
                 ]
             }    
         r = requests.post(self.url, data = json.dumps(data), headers={"Content-Type":"application/json"})
-
-def main():
-    import macos_keychain
-    webhook_url = macos_keychain.get(name="Webhook URL").strip()
-    print(webhook_url) 
-    sm = TeamsWebhook()
-    sm.url = webhook_url
-    sm.script_name = "Webhook Test"
-    sm.request_post("Webhook works")
-
-if __name__ == "__main__":
-    main()
