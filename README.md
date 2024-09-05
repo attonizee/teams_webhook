@@ -1,6 +1,6 @@
 # Python class for working with webhooks to MSTeams via workflow
 
-[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![Python 3.10.14](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-31014/)
 
 ### History
 After MIcrosoft anounced deprecation of office 365 connectors, I decided to create a simle class,
