@@ -1,5 +1,7 @@
 # Python class for working with webhooks to MSTeams via workflow
 
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+
 ### History
 After MIcrosoft anounced deprecation of office 365 connectors, I decided to create a simle class,
 for working with Power Automate workflows, to post messages from python scripts to Teams channel.
