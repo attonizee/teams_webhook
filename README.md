@@ -12,6 +12,10 @@ Adaptive Card to Teams channel.
 
 You can clone this repo, install it with pip, and use in your code.
 
+```
+pip install teamswebhook
+```
+
 import class:
 ```
 from teamswebhook import TeamsWebhook
