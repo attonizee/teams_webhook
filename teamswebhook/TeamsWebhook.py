@@ -45,7 +45,8 @@ class TeamsWebhook:
                                 },
                                 {
                                     "type": "TextBlock",
-                                    "text": message
+                                    "text": message,
+                                    "wrap": True
                                 }
                             ]
                         }
